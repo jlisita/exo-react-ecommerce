@@ -30,15 +30,19 @@ const LastProducts = () => {
       })
     
     return (
-        <section>
+      <section>
         <h2>Derniers produits</h2>
-        <ul>
-        {lastProducts.map((product) => {
+          {lastProducts.map((product) => {
           return (
-              <li>{product.name} {product.price} euros </li>
+            <>
+              <h3>{product.name}</h3>
+              <img src = "https://img.freepik.com/vecteurs-libre/vecteur-degrade-logo-colore-oiseau_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.87170709.1711497600&semt=sph%22," alt = "logo" width = "80"/>  
+              <p>Prix: {product.price} euros</p>
+              <p>Catégorie: {product.category}</p>
+              
+            </>
           );
         })}
-        </ul>
       </section>
 
     );

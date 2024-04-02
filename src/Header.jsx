@@ -3,16 +3,13 @@ const Header = () => {
     const cart = [
   
         { id: 1, product: "Machine à laver", quantity: 1 },
-        
-        { id: 2, product: "Télévision", quantity: 1 },
-        
+        { id: 2, product: "Télévision", quantity: 1 }, 
         { id: 4, product: "Tablette", quantity: 1 },
         ];
 
     const user = {
   
         firstName: "John",
-        
         lastName: "Doe",
         
         };

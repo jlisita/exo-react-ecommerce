@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import LastProducts from './LastProducts';
 import HouseholdProducts from './HouseholdProducts';
+import InformaticProducts from './InformaticProducts';
 import CheapestProducts from './CheapestProducts';
 
 const App = () => {
@@ -40,6 +41,7 @@ const App = () => {
       <Header/>
       <LastProducts/>
       <HouseholdProducts/>
+      <InformaticProducts/>
       <CheapestProducts/>
       <Footer/>
     </div>

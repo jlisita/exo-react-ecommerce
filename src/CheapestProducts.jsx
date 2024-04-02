@@ -33,14 +33,16 @@ const CheapestProducts = () => {
 
     return (
         <section>
-            <h1>Produits les moins chers</h1>
-            <ul>
+            <h2>Produits les moins chers</h2>
             { cheapest3products.map((product) => {
             return (
-                <li>{product.name} {product.price} euros </li>
+              <>
+                <h3>{product.name}</h3>
+                <p>Prix: {product.price} euros</p>
+                <img src = "https://img.freepik.com/vecteurs-libre/vecteur-degrade-logo-colore-oiseau_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.87170709.1711497600&semt=sph%22," alt = "logo" width = "80"/>  
+              </>
             );
             })}
-            </ul>
         </section>
     );
   };
