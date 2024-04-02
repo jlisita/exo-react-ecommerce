@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
+import LastProducts from './LastProducts';
+import HouseholdProducts from './HouseholdProducts';
+import CheapestProducts from './CheapestProducts';
 
 const App = () => {
   
@@ -35,6 +38,9 @@ const App = () => {
   return (
     <div className="App">
       <Header/>
+      <LastProducts/>
+      <HouseholdProducts/>
+      <CheapestProducts/>
       <Footer/>
     </div>
   );
